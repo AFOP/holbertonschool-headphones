@@ -1,8 +1,8 @@
 # Implement a design from scratch
 
-| Columna 1 |
+| Concepts |
 | --------- |
-| Master |
+| For this project, we expect you to look at this concept: - Implement a design |
 | By: Nicolas Philippot, UI/UX designer and Guillaume Salva, CTO at Holberton School |
 | Weight: 3 |
 
