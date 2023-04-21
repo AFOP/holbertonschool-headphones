@@ -1,5 +1,7 @@
 # Implement a design from scratch
 
+| Columna 1 |
+| --------- |
 | Master |
 | By: Nicolas Philippot, UI/UX designer and Guillaume Salva, CTO at Holberton School |
 | Weight: 3 |
