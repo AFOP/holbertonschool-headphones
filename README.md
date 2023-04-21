@@ -14,20 +14,27 @@ Here the final result:
 | --------- | --------- | --------- |
 | <img src="img/max.jpg" alt="Vista pantalla grande"> | <img src="img/medium.jpg" alt="Vista pantalla mediana"> | <img src="img/small.jpg" alt="Vista pantalla pequeña"> |
 
-## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+This webpage has been designed by Nicolas Philippot, UI/UX designer. You can find final screens [here](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/622/Archive.zip)
 
-## General
-### What is CSS
-How to add style to an element
-What is a class
-What is a selector
-How to compute CSS Specificity Value
-What are Box properties in CSS
-How does the browser load a webpage
 ## Requirements
-### General
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-You are not allowed to install, import or use external libraries. This website must be build with only HTML/CSS/JavaScript. No NodeJS, React, VueJS, Bootstrap, etc.
-Your code should be W3C compliant and validate with [W3C-Validator](https://github.com/hs-hq/W3C-Validator/blob/main/README.md?plain=1)
+- you are not allowed to import external CSS framework (like Bootstrap)
+- you are not to use Javascript
+
+Create an account in [Figma](https://intranet.hbtn.io/rltoken/y6_o1T-HtCyTAGuOJqdA_g) and open this [project](https://intranet.hbtn.io/rltoken/SpYRV14tPxTZJSjU2Eoh4A) and “Duplicate to your Drafts” to have access to all design details.
+
+If you can’t access to it, please find here the [Figma file](https://intranet.hbtn.io/rltoken/tWEPFyHyXyNO9Xfi2Er2EA)
+
+<img src="img/figma.jpg" alt="Para duplicar el proyecto y poder manipular el archivo">
+
+## Important notes with Figma:
+
+if your computer doesn’t have missing fonts, you can find them here: [source-sans-pro](https://intranet.hbtn.io/rltoken/yvx4-XkjAQJgHlN6RAoKWQ) and [Spin-Cycle-OT](https://intranet.hbtn.io/rltoken/Jw0FKYKB6l5_2Koto0duTA)
+some values are in float - feel free to round them
+For this task, please write an amazing README.md
+
+## Interactions note:
+
+- the web page must switch to the mobile version when the screen width is 480px or less
+- links hover/active: #FF6565
+- button hover/active: opacity: 0.9
+- max width of the content: 1000px centered in the page
