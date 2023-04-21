@@ -2,21 +2,17 @@
 
 | Concepts |
 | --------- |
-| For this project, we expect you to look at this concept: - Implement a design |
-| By: Nicolas Philippot, UI/UX designer and Guillaume Salva, CTO at Holberton School |
-| Weight: 3 |
+| For this project, we expect you to look at this concept: - [Implement a design](https://intranet.hbtn.io/concepts/963) |
 
-<img src="img/desing.jpg" alt="Estructura HTML">
+In this project, you will implement from scratch, without any library, a web page. You will use all HTML/CSS/Accessibility/Responsive design knowledges that you learned previously.
 
-## Resources
-### Read or watch:
+You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have a fully functional web page that looks the same as the designer file.
 
-- [Learn to Code HTML & CSS (until “Creating Lists” included)](https://learn.shayhowe.com/html-css/)
-- [Inline Styles in HTML](https://www.codecademy.com/article/html-inline-styles)
-- [Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)
-- [CSS SpeciFishity](http://www.standardista.com/cgi-sys/suspendedpage.cgi)
-- [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
-- [MDN](https://developer.mozilla.org/en-US/)
+Here the final result:
+
+| Max | Medium | Small |
+| --------- | --------- | --------- |
+| <img src="img/desing.jpg" alt="Estructura HTML"> | <img src="img/desing.jpg" alt="Estructura HTML"> | <img src="img/desing.jpg" alt="Estructura HTML"> |
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
