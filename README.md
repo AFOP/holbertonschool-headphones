@@ -12,7 +12,7 @@ Here the final result:
 
 | Max | Medium | Small |
 | --------- | --------- | --------- |
-| <img src="img/desing.jpg" alt="Estructura HTML"> | <img src="img/desing.jpg" alt="Estructura HTML"> | <img src="img/desing.jpg" alt="Estructura HTML"> |
+| <img src="img/max.jpg" alt="Vista pantalla grande"> | <img src="img/medium.jpg" alt="Vista pantalla mediana"> | <img src="img/small.jpg" alt="Vista pantalla pequeña"> |
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
