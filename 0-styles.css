@@ -322,6 +322,7 @@ ul.row {
     height: 800px;
     position: absolute;
     display: block;
+    background-size: 100% 100%;
     overflow: hidden;
     z-index: -1;
 }
@@ -440,15 +441,16 @@ ul.row {
 
     .section-hero::before {
         content: "";
-        background-image: url("img/headphones_hero_3.jpg");
+        background-image: url("img/headphones_hero_1.jpg");
         margin: 0;
         padding: 0;
         top: -3rem;
-        max-width: 480px;
+        max-width: 1400px;
         height: 800px;
         border: #979797 solid 1px;
         position: absolute;
         overflow: hidden;
         z-index: -1;
     }
+
 }
