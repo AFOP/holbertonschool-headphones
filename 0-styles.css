@@ -231,6 +231,7 @@ ul.row {
     padding: 1rem;
     position: relative;
     user-select: none;
+    display: none;
 }
 
 .menu-icon .navicon {
@@ -315,7 +316,7 @@ ul.row {
 .section-hero::before {
     content: "";
     background-image: url("img/headphones_hero_1.jpg");
-    top: -2rem;
+    top: -3rem;
     left: 0;
     width: 100%;
     height: 800px;
@@ -373,30 +374,68 @@ ul.row {
 /* Media Query
       ============================= */
 
-@media screen and (max-width: 992px) {
-    
-}
-
 @media screen and (max-width: 767px) {
-    .navbar-menu {
-        display: none;
+    .header {
+        margin: 0;
+        padding: 0;
+    }
+    .container-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-height: 100%;
+        margin-top: 1.5rem;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .menu-icon {
+        width: 40%;
+        display: block;
     }
     .logo {
-        position: absolute;
+        width: 60%;
+        margin-left: 0;
+        
+    }
+    .navbar-menu {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        display: none;
+    }
+
+    .section-body {
+        margin: 20% 0 0 0;
+    }
+
+    .section-inner {
+        margin: 30% 1% 1% 1%;
+    }
+
+    .menu-btn:checked ~ .navbar-menu {
+        display: block;
     }
 }
 
 @media screen and (max-width: 480px) {
     .section-body {
-        margin-top: 5rem;
+        margin: 20% 0 0 0;
     }
-    
+
     .section-inner {
-        margin: 0;
+        margin: 40% 1% 1% 1%;
     }
 
     .description-hero {
         margin-top: 5rem;
+    }
+
+    .menu-icon {
+        width: 30%;
+    }
+    .logo {
+        width: 70%;
     }
 
     .section-hero::before {
@@ -404,7 +443,7 @@ ul.row {
         background-image: url("img/headphones_hero_3.jpg");
         margin: 0;
         padding: 0;
-        top: -95px;
+        top: -3rem;
         max-width: 480px;
         height: 800px;
         border: #979797 solid 1px;
