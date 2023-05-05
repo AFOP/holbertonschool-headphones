@@ -428,7 +428,8 @@ ul.row {
 
 .container-section-result {
     text-align: center;
-    margin-bottom: 5rem;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .section-results::before {
@@ -446,6 +447,8 @@ ul.row {
 
 .section-header-result {
     margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .col-1-4-result {
