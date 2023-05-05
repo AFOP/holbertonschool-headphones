@@ -636,7 +636,7 @@ ul.row {
         content: "";
         background-image: url("img/object.png");
         top: 1950px;
-        height: 100vh;
+        height: 200vh;
         background-size: cover;
         position: absolute;
         display: block;
