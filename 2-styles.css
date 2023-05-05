@@ -632,17 +632,6 @@ ul.row {
         width: 100%;
     }
 
-    .section-results::after {
-        content: "";
-        background-color: #071629;
-        top: 2250px;
-        height: 100vh;
-        background-size: cover;
-        position: absolute;
-        display: block;
-        z-index: -1;
-    }
-
     .section-results::before {
         content: "";
         background-image: url("img/object.png");
