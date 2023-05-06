@@ -508,17 +508,16 @@ form input {
     font-size: var(--font-size-nav);
 }
 
-.form input:focus~label {
-    font-size: 0.75rem;
-    transform: translateY(-1.5rem);
-    transition: font-size 0.2s ease-in-out, transform 0.2s ease-in-out;
-}
-
 .form-group {
     margin: auto;
     padding: 0.5rem;
     background-color: #ffffff;
 }
+
+.form-group:focus-within {
+    font-size: 0.75rem;
+    transition: 0.3s;
+  }
 
 .top {
     margin-top: 15rem;
