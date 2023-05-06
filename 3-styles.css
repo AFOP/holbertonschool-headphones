@@ -487,8 +487,58 @@ ul.row {
     margin: 0;
 }
 
+/* Section Contac
+      ============================= */
 
+.form {
+    margin: auto;
+}
 
+form label,
+form input {
+    display: block;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    outline: none;
+    font-size: var(--font-size-nav);
+}
+
+.form input:focus~label {
+    font-size: 0.75rem;
+    transform: translateY(-1.5rem);
+    transition: font-size 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.form-group {
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #ffffff;
+}
+
+.top {
+    margin-top: 15rem;
+}
+
+.bottom {
+    margin-bottom: 15rem;
+}
+
+.form label {
+    cursor: pointer;
+    display: flex;
+    size: 1.4rem;
+    padding: 0 0 .5rem;
+    font-weight: bold;
+}
+
+.section-header-contact {
+    margin-bottom: 5rem;
+}
 
 /* Media Query
       ============================= */
@@ -563,7 +613,7 @@ ul.row {
         content: "";
         background-image: url("img/object.png");
         top: 1430px;
-        height: 150vh;
+        height: 120vh;
         background-size: cover;
         position: absolute;
         display: block;
@@ -658,7 +708,7 @@ ul.row {
         content: "";
         background-image: url("img/object.png");
         top: 1950px;
-        height: 200vh;
+        height: 180vh;
         background-size: cover;
         position: absolute;
         display: block;
