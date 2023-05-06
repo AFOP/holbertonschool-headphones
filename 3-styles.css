@@ -517,6 +517,7 @@ form input {
 .form-group:focus-within {
     font-size: 0.75rem;
     transition: 0.3s;
+    max-height: 20rem;
   }
 
 .top {
