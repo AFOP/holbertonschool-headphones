@@ -521,11 +521,11 @@ form input {
   }
 
 .top {
-    margin-top: 15rem;
+    margin-top: 35rem;
 }
 
 .bottom {
-    margin-bottom: 15rem;
+    margin-bottom: 35rem;
 }
 
 .form label {
@@ -538,6 +538,33 @@ form input {
 
 .section-header-contact {
     margin-bottom: 5rem;
+}
+
+/* Footer
+      ============================= */
+
+.footer-content {
+    background-color: #071629;
+}
+
+[class*='holberton_school-icon-'] {
+    font-size: 15rem;
+}
+
+.holberton_school-icon-ic_facebook path {
+    fill: #ffffff;
+  }
+
+  .holberton_school-icon-ic_facebook svg {
+    width: 30px;
+    height: 30px;
+  }
+  
+.copyrights {
+    height: 100%;
+    font-size: 12px;
+    color: #979797;
+    text-align: center;
 }
 
 /* Media Query
@@ -597,6 +624,10 @@ form input {
         width: 50%;
     }
 
+    [class*='col-'] {
+        padding: 1rem;
+    }
+
     .col-1-4-result {
         width: 50%;
     }
@@ -606,7 +637,7 @@ form input {
     }
 
     .section-header-result {
-        margin-top: 25%;
+        margin-top: 20rem;
     }
 
     .section-results::before {
@@ -697,7 +728,11 @@ form input {
     }
 
     .section-header-result {
-        margin-top: 50%;
+        margin-top: 25rem;
+    }
+
+    [class*='col-'] {
+        padding: 1rem;
     }
 
     .col-1-4-result {
