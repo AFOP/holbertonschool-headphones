@@ -587,6 +587,7 @@ form input {
       ============================= */
 
 .footer-content {
+    width: 100%;
     background-color: #071629;
     display: flex;
 }
@@ -708,6 +709,28 @@ form input {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo-contianer {
+        width: 100%;
+        margin: 5rem;
+        text-align: center; 
+    }
+
+    .icons {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .social-icons-container {
+        width: 100%;
+        margin: 5rem;
+        text-align: center; 
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -796,4 +819,5 @@ form input {
         display: block;
         z-index: -2;
     }
+
 }
